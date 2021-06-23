@@ -12,11 +12,11 @@ library(xlsx)
 
 download.file(url="http://curl.haxx.se/ca/cacert.pem", destfile="cacert.pem")
 
-setup_twitter_oauth("YKHIbTeijxkbJgsdRmfklHBsg","nInN5epby60RCCtPn1ib3QnIBDSejF9yWDX4utEwftnmJ7agr7","43682080-U9nG0J3xmF2hXUIfnHUZRARlDZvaRoVLuPe6CX57X","wD3OTLTeflqv9sxyLXmBCjuWW3dhGXIyahcs8r48taOSN")
+setup_twitter_oauth("XXX","XXX","XXX","XXX")
 
 register_sqlite_backend("sqlite bremen monchengladbach")
 
-tweets_db = search_twitter_and_store("bremen monchengladbach", lang='en', since='2020-05-27', until='2020-05-28', retryOnRateLimit = 20)
+tweets_db = search_twitter_and_store("XXX", lang='en', since='2020-05-27', until='2020-05-28', retryOnRateLimit = 20)
 
 some_tweets = load_tweets_db()
 
